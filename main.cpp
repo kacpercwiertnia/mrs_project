@@ -65,7 +65,6 @@ vector<double> rozw_przyblizone(long long n, double h, vector<double> t){
 
     for(int i = 0; i < n; i++ ){
         wynik.push_back(matrix3(i,0));
-        //cout << wynik[i] << endl;
     }
 
     return wynik;
